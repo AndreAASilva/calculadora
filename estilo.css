@@ -1,0 +1,465 @@
+.body{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+/*-------------*\
+CORPO CALCULADORA
+\*-------------*/
+.corpoCalculadora{
+
+    /*Posicionamento centralizado*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    
+    
+    width: 245px;
+    height: 405px;
+    
+    border: 1px solid #808080;
+
+    
+}
+
+.corpoAjustes{
+    background-color: #bab8b5;
+    border-radius: 1%;
+
+    box-shadow: 2px 2px 2px #808080;
+}
+
+/*-------------*\
+TEXTO CALCULADORA
+\*-------------*/
+
+div .blocoTitulo{
+
+    padding: 0;
+    margin: 0;
+    background: yellow;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    width: 230px;
+    height: 50px;
+    border-radius: 1%;
+
+    background-color: #bab8b5;
+    border: 1px solid #808080;
+    box-shadow: 2px 2px 2px #808080;
+    
+
+}
+
+.titulo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: #666464;
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+/*---------------*\
+DISPLAY CALCULADORA
+\*---------------*/
+
+.displayCalculadora {
+    position: absolute;
+    top: 85px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    width: 230px;
+    height: 50px;
+    padding: 0;
+    box-shadow: 2px 2px 2px #808080;
+
+    border: 1px solid #808080;
+
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/*----------------------------------*\
+BOTÕES NUMÉRICOS COLUNA 01 CALCULADORA
+\*----------------------------------*/
+
+.val-col01{
+    position: absolute;
+    
+    
+    width: 50px;
+    height: 200px;
+    top: 180px;
+    left: 6px;
+
+}
+
+.Nsete{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    top: 0;
+    left: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+
+    box-shadow: 2px 2px 2px #808080;
+
+    border: 1px solid #808080;
+
+    border-radius: 5%;
+}
+
+.Nquatro{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    top: 5px;
+    left: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+
+    box-shadow: 2px 2px 2px #808080;
+
+    border: 1px solid #808080;
+
+    border-radius: 5%;
+}
+
+.Nhum{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    top: 10px;
+    left: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+
+    box-shadow: 2px 2px 2px #808080;
+
+    border: 1px solid #808080;
+
+    border-radius: 5%;
+}
+
+
+/*----------------------------------*\
+BOTÕES NUMÉRICOS COLUNA 02 CALCULADORA
+\*----------------------------------*/
+
+.val-col02{
+    position: absolute;
+    
+    
+    width: 50px;
+    height: 200px;
+    top: 180px;
+    left: 65px;
+}
+
+.Noito{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    top: 0;
+    left: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+
+    box-shadow: 2px 2px 2px #808080;
+
+    border: 1px solid #808080;
+
+    border-radius: 5%;
+}
+
+.Ncinco{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    top: 5px;
+    left: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+
+    box-shadow: 2px 2px 2px #808080;
+
+    border: 1px solid #808080;
+
+    border-radius: 5%;
+}
+
+.Ndois{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    top: 10px;
+    left: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+
+    box-shadow: 2px 2px 2px #808080;
+
+    border: 1px solid #808080;
+
+    border-radius: 5%;
+}
+
+
+
+
+/*----------------------------------*\
+BOTÕES NUMÉRICOS COLUNA 03 CALCULADORA
+\*----------------------------------*/
+
+.val-col03{
+    position: absolute;
+    
+    
+    width: 50px;
+    height: 200px;
+    top: 180px;
+    left: 125px;
+}
+
+.Nnove{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    top: 0;
+    left: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+
+    box-shadow: 2px 2px 2px #808080;
+
+    border: 1px solid #808080;
+
+    border-radius: 5%;
+}
+
+.Nseis{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    top: 5px;
+    left: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+
+    box-shadow: 2px 2px 2px #808080;
+
+    border: 1px solid #808080;
+
+    border-radius: 5%;
+}
+
+.Ntres{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    top: 10px;
+    left: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+
+    box-shadow: 2px 2px 2px #808080;
+
+    border: 1px solid #808080;
+
+    border-radius: 5%;
+}
+
+
+/*------------------------*\
+BOTÕES COLUNA 04 CALCULADORA
+\*------------------------*/
+
+.val-col04{
+    position: absolute;
+    
+    
+    width: 50px;
+    height: 200px;
+    top: 180px;
+    left: 185px;
+}
+
+
+.Nigual{
+    position: relative;
+    width: 50px;
+    height: 216px;
+    padding: 0;
+    top: 0;
+    left: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+
+    box-shadow: 2px 2px 2px #808080;
+
+    border: 1px solid #808080;
+
+    border-radius: 5%;
+}
+
+/*------------------------*\
+BOTÕES COLUNA 05 CALCULADORA
+\*------------------------*/
+
+.val-col05{
+    position: absolute;
+    
+    
+    width: 230px;
+    height: 50px;
+    top: 346px;
+    left: 6px;
+}
+
+.Nzero{
+    position: relative;
+    width: 110px;
+    height: 50px;
+    padding: 0;
+    top: 0;
+    left: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+
+    box-shadow: 2px 2px 2px #808080;
+
+    border: 1px solid #808080;
+
+    border-radius: 5%;
+}
+
+.Npontuacao{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    top: 0;
+    left: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+
+    box-shadow: 2px 2px 2px #808080;
+
+    border: 1px solid #808080;
+
+    border-radius: 5%;
+}
+
+/*------------------------*\
+BOTÕES SÍMBOLOS CALCULADORA
+\*------------------------*/
+
+.simbolos{
+    position: absolute;
+    
+    
+    width: 228px;
+    height: 50px;
+    top: 120px;
+    left: 6px;
+}
+
+.Ndivisao{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    top: 0;
+    left: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+
+    box-shadow: 2px 2px 2px #808080;
+
+    border: 1px solid #808080;
+
+    border-radius: 5%;
+}
+
+.Nmultiplicacao{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    top: 0;
+    left: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+
+    box-shadow: 2px 2px 2px #808080;
+
+    border: 1px solid #808080;
+
+    border-radius: 5%;
+}
+
+.Nsubtracao{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    top: 0;
+    left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+
+    box-shadow: 2px 2px 2px #808080;
+
+    border: 1px solid #808080;
+
+    border-radius: 5%;
+}
+
+.Nadicao{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    top: 0;
+    left: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+
+    box-shadow: 2px 2px 2px #808080;
+
+    border: 1px solid #808080;
+
+    border-radius: 5%;
+}
