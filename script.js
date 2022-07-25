@@ -1,52 +1,23 @@
-    function hum(){
-        var NumUm = 1
-        console.log(NumUm)            
+function insert(num){
+    //Vai inserir o valor no elemento
+    var numero = document.getElementById('calculadora').innerHTML;
+    //Vai continuar inserindo os valores
+    document.getElementById('calculadora').innerHTML = numero + num;
+}
 
+function clean(){
+
+    document.getElementById('calculadora').innerHTML = " ";
+}
+
+function calcular(){
+
+    var resultado = document.getElementById('calculadora').innerHTML;
+    if(resultado){
+        //A função eval() computa um código JavaScript representado como uma string.
+        document.getElementById('calculadora').innerHTML = eval(resultado);
     }
-
-    function dois(){
-        var NumDois = 2
-        console.log(NumDois)
+    else{
+        document.getElementById('calculadora').innerHTML = "Sem Valor"
     }
-
-    function tres(){
-        var NumTres = 3
-        console.log(NumTres)
-    }
-
-    function quatro(){
-        var NumQuatro = 4
-        console.log(NumQuatro)
-    }
-
-    function cinco(){
-        var NumCinco = 5
-        console.log(NumCinco)
-    }
-
-    function seis(){
-        var NumSeis = 6
-        console.log(NumSeis)
-    }
-
-    function sete(){
-        var NumSete = 7
-        console.log(NumSete)
-    }
-
-    function oito(){
-        var NumOito = 8
-        console.log(NumOito)
-    }
-
-    function nove(){
-        var NumNove = 9
-        console.log(NumNove)
-    }
-
-    function zero(){
-        var NumZero = 0
-        console.log(NumZero)
-    }
-
-    
+}
